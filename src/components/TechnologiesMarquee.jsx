@@ -4,7 +4,6 @@ import { DiPostgresql } from "react-icons/di";
 import { DiMongodb } from "react-icons/di";
 import { SiExpress, SiTailwindcss } from "react-icons/si";
 import { RiNextjsLine } from "react-icons/ri";
-import { hover } from "motion";
 
 // Array of technologies with their respective icons
 const technologies = [
@@ -63,9 +62,9 @@ const technologies = [
 ];
 
 // TechnologyCard component to display each technology with its icon
-const TechnologyCard = ({ tech }) => {
+const TechnologyCard = ({ tech, key}) => {
   return (
-    <div className="h-16 w-16 lg:h-24 lg:w-24 flex items-center justify-center p-4 bg-gray-800 rounded-xl border-2 border-neutral-400 mx-4 hover:bg-transparent">
+    <div className="h-16 w-16 lg:h-20 lg:w-20 flex items-center justify-center p-4 bg-gray-800 rounded-xl border-2 border-neutral-400 mx-4 hover:bg-transparent">
       {tech.icon}
     </div>
   );
@@ -80,14 +79,10 @@ const TechnologiesMarquee = () => {
             animation: "marquee 10s linear infinite"
           }}
       >
-        {technologies.concat(technologies).map((tech) => (
-          <TechnologyCard key={tech.name} tech={tech} />
+        {technologies.concat(technologies).map((tech, index) => (
+          <TechnologyCard key={index} tech={tech} />
         ))}
       </div>
-
-      {/* Gradient Effect on the sides */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-transparent via-transparent to-transparent"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-transparent via-transparent to-transparent"></div>
     </div>
   );
 };
