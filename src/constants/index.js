@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project3.png";
 
 export const HERO_CONTENT = `I am a passionate web and app developer with a deep enthusiasm for creating seamless, user-centric experiences. Although I’m still growing my expertise, I’m driven to expand my skills and learn through hands-on projects. My focus is on building efficient, scalable applications with modern web and mobile technologies such as React Native, React, Next.js, and backend solutions like Node.js, MySQL, PostgreSQL, and MongoDB. I am always eager to collaborate on innovative projects, share knowledge, and contribute to meaningful, real-world solutions that make an impact. Let's work together to build something great!`;
 
@@ -37,6 +38,14 @@ export const HERO_CONTENT = `I am a passionate web and app developer with a deep
 
 export const PROJECTS = [
   {
+    title: 'MenuForge',
+    image: project3,
+    description: 
+      "MenuForge is a full-stack SaaS platform that enables restaurants and businesses to create, customize, and launch their own fully functional online storefronts—without writing a single line of code.",
+    technologies: ["Next.js", "Amazon S3", "Supabase (PostgreSQL)", "TailwindCSS"],
+    link: "https://menuforge.vercel.app/"
+  },
+  {
     title: "EasyReads",
     image: project1,
     description:
@@ -54,8 +63,8 @@ export const PROJECTS = [
   },
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
-};
+// export const CONTACT = {
+//   address: "767 Fifth Avenue, New York, NY 10153 ",
+//   phoneNo: "+12 4555 666 00 ",
+//   email: "me@example.com",
+// };
