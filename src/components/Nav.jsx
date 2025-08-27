@@ -16,13 +16,13 @@ const Nav = () => {
     <nav className="flex items-center justify-between py-6 lg:mb-8">
       {/* Logo */}
       <div className="flex flex-shrink-0 items-center">
-        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl text-slate-200">H</motion.h1>
-        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl text-slate-300">A</motion.h1>
-        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl text-slate-400">S</motion.h1>
-        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl text-slate-500">N</motion.h1>
-        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl text-slate-400">A</motion.h1>
-        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl text-slate-300">A</motion.h1>
-        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl text-slate-200">T</motion.h1>
+        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl font-semibold text-slate-200">H</motion.h1>
+        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl font-semibold text-slate-200">A</motion.h1>
+        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl font-semibold text-slate-200">S</motion.h1>
+        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl font-semibold text-slate-200">N</motion.h1>
+        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl font-semibold text-slate-200">A</motion.h1>
+        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl font-semibold text-slate-200">A</motion.h1>
+        <motion.h1 whileHover={{ scale: 1.5, translateY: -10 }} whileTap={{ scale: 0.95 }} className="text-xl font-semibold text-slate-200">T</motion.h1>
       </div>
 
       {/* Social Media and Contact Links */}

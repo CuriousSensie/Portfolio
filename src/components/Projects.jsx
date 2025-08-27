@@ -11,7 +11,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="text-3xl md:text-4xl lg:text-5xl font-thin tracking-tight mb-4 text-center pb-8 lg:pb-0 lg:text-left lg:w-1/3"
+        className="text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight mb-4 text-center pb-8 lg:pb-0 lg:text-left lg:w-1/3"
       >
         My Recent Projects
       </motion.h1>

@@ -61,7 +61,7 @@ const Contact = () => {
       <div className="container mx-auto px-6 lg:flex lg:flex-row-reverse">
         {/* Title Section */}
         <motion.h1
-          className="text-3xl md:text-4xl lg:text-5xl font-thin tracking-tight mb-8 text-center lg:text-left"
+          className="text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight mb-8 text-center lg:text-left"
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}

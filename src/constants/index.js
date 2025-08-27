@@ -1,40 +1,45 @@
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
+import eprocure365 from "../assets/projects/eprocure365.png";
+import shield_sync from "../assets/projects/shield_sync.png";
+import genpage from "../assets/projects/genpage.png";
 
-export const HERO_CONTENT = `I am a passionate web and app developer with a deep enthusiasm for creating seamless, user-centric experiences. Although I’m still growing my expertise, I’m driven to expand my skills and learn through hands-on projects. My focus is on building efficient, scalable applications with modern web and mobile technologies such as React Native, React, Next.js, and backend solutions like Node.js, MySQL, PostgreSQL, and MongoDB. I am always eager to collaborate on innovative projects, share knowledge, and contribute to meaningful, real-world solutions that make an impact. Let's work together to build something great!`;
+export const HERO_CONTENT = `I’m a Full-Stack Engineer providing my services in Web & Mobile app development. I’m dedicated to crafting seamless, user-focused digital experiences. With a strong foundation in modern web and mobile technologies like React, React Native, Next.js, and robust back-end solutions with Node.js, MySQL, PostgreSQL, and MongoDB, I specialize in building efficient, scalable, and impactful applications.
 
+While I’m continuously expanding my expertise, I thrive on hands-on projects, collaboration, and solving real-world challenges. My goal is to transform ideas into high-performing products that deliver real value.
 
-// export const EXPERIENCES = [
-//   {
-//     year: "2023 - Present",
-//     role: "Senior Full Stack Developer",
-//     company: "Google Inc.",
-//     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-//     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-//   },
-//   {
-//     year: "2022 - 2023",
-//     role: "Frontend Developer",
-//     company: "Adobe",
-//     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-//     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-//   },
-//   {
-//     year: "2021 - 2022",
-//     role: "Full Stack Developer",
-//     company: "Facebook",
-//     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-//     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-//   },
-//   {
-//     year: "2020 - 2021",
-//     role: "Software Engineer",
-//     company: "Paypal",
-//     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-//     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-//   },
-// ];
+I’m always excited to connect, learn, and contribute to projects that push boundaries — let’s create something meaningful together!`;
+
+export const COLLABORATIONS = [
+  {
+    id: 1,
+    title: "EProcure365",
+    description: "Collaborated with a team of 7 developers to build a SaaS solution for AI enabled procurement management with multi-tenant support, separate dashboards, and AI integrations.",
+    role: "Full Stack Developer",
+    image: eprocure365,
+    technologies: ["Next", "Node.js", "MongoDB", "OpenAI"],
+    link: "https://www.eprocure365.com/"
+  },
+  {
+    id: 2,
+    title: "GenPage.ai",
+    description: "Helped implement the dashboard and integrate backend APIs for a SaaS platform for AI enabled Outreach, Campaigns and Lead Generation. Also, helped make the APIs Zapier compatible and integrate Zapier.",
+    role: "Frontend & Zapier Automation",
+    image: genpage,
+    technologies: ["Next.js", "TailwindCSS", "Php", "Zapier" ],
+    link: "https://genpage.ai"
+  },
+  {
+    id: 3,
+    title: "ShieldSync",
+    description: "Integrated Payload CMS for content management. Designed implemented and integrated the APIs for Blogs and Content Management System.",
+    role: "Full Stack Developer",
+    image: shield_sync,
+    technologies: ["Next.js", "Payload CMS", "Digital Ocean" , "Socket.io"],
+    link: "https://shield-sync.com/"
+  }
+];
 
 export const PROJECTS = [
   {
@@ -62,9 +67,3 @@ export const PROJECTS = [
     link: "https://translyml.netlify.app"
   },
 ];
-
-// export const CONTACT = {
-//   address: "767 Fifth Avenue, New York, NY 10153 ",
-//   phoneNo: "+12 4555 666 00 ",
-//   email: "me@example.com",
-// };
