@@ -25,6 +25,7 @@ const Hero = () => {
   ];
 
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  const [isHovered, setIsHovered] = useState(false);
   const [key, setKey] = useState(Date.now()); // Used to reset TypingAnimation when text changes
 
   // Change text every 5 seconds
@@ -50,9 +51,11 @@ const Hero = () => {
           >
             <div className="relative">
               {/* Gradient glow */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 blur-2xl animate-pulse"></div>
+              <div className={`absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 blur-2xl animate-spin ${isHovered? "duration-700" : "duration-3000"}`}></div>
 
               <img
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
                 src={profileImage}
                 alt="profile image"
                 className="relative w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full border-2 border-slate-800"

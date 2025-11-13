@@ -44,7 +44,7 @@ const Nav = () => {
                   <link.icon className="w-6 h-6 text-slate-300 hover:text-slate-100 transition-all duration-300" />
                 </motion.a>
               </TooltipTrigger>
-              <TooltipContent>
+              <TooltipContent className="text-white">
                 <p>{link.label}</p>
               </TooltipContent>
             </Tooltip>
@@ -63,7 +63,7 @@ const Nav = () => {
                 <FaEnvelope className="w-6 h-6 text-slate-300 hover:text-slate-500 transition-all duration-300" />
               </motion.a>
             </TooltipTrigger>
-            <TooltipContent>
+            <TooltipContent className="text-white">
               <p>Contact</p>
             </TooltipContent>
           </Tooltip>

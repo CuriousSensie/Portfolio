@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project3.png";
 import eprocure365 from "../assets/projects/eprocure365.png";
 import shield_sync from "../assets/projects/shield_sync.png";
 import genpage from "../assets/projects/genpage.png";
+import osmrtnica from "../assets/projects/osmrtnica.png";
 
 export const HERO_CONTENT = `I’m a Full-Stack Engineer providing my services in Web & Mobile app development. I’m dedicated to crafting seamless, user-focused digital experiences. With a strong foundation in modern web and mobile technologies like React, React Native, Next.js, and robust back-end solutions with Node.js, MySQL, PostgreSQL, and MongoDB, I specialize in building efficient, scalable, and impactful applications.
 
@@ -23,6 +24,15 @@ export const COLLABORATIONS = [
   },
   {
     id: 2,
+    title: "Osmrtnica - Obituary Management System",
+    description: "Worked as the lead developer to develop features, and provide support to build a SaaS solution for Obituary Management System with multi-tenant support and separate dashboards. Managed the hosting through Hostinger.",
+    role: "Full Stack Developer and Hosting Manager",
+    image: osmrtnica,
+    technologies: ["Next", "Node.js", "SQL", "Docker", "Hostinger"],
+    link: "https://www.osmrtnica.com/"
+  },
+  {
+    id: 3,
     title: "GenPage.ai",
     description: "Helped implement the dashboard and integrate backend APIs for a SaaS platform for AI enabled Outreach, Campaigns and Lead Generation. Also, helped make the APIs Zapier compatible and integrate Zapier.",
     role: "Frontend & Zapier Automation",
@@ -31,7 +41,7 @@ export const COLLABORATIONS = [
     link: "https://genpage.ai"
   },
   {
-    id: 3,
+    id: 4,
     title: "ShieldSync",
     description: "Integrated Payload CMS for content management. Designed implemented and integrated the APIs for Blogs and Content Management System.",
     role: "Full Stack Developer",
